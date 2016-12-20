@@ -15,7 +15,8 @@ public class Item
 	private boolean raw;
 	private int produced;
 	private static ArrayList<Item> items;
-	private static final String configDelim = "_High_Major_Commodore_of_the_First_Legion_Third_Multiplication_Double_Admiral_Artillery_Vanguard_Company_";
+	private static final String configDelim = "_The2ndLaw_";
+//	private static final String configDelim = "_High_Major_Commodore_of_the_First_Legion_Third_Multiplication_Double_Admiral_Artillery_Vanguard_Company_";
 	
 	public Item(String n, boolean r)
 	{
