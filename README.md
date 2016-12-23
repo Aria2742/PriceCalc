@@ -2,7 +2,7 @@
 
 This program lets you calculate out shop prices easily for different base material cost and new items. It works by using the item recipes to figure out how many raw materials an item needs, then figure out the price from the raw material costs. The program also stores all the item data in a text document for later use. You MUST use the "exit" command to save the item info before closing the program.
 
-The program currently allows for 5 commands:
+The program currently allows for 5 commands:\n
   "add" - lets you add an item to the list. Follow the prompts and you should be good
   "price \<item name\> - returns the price of the specified item
   "list" - lists all currently stored items in alphabetical order
