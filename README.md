@@ -11,7 +11,7 @@ The program currently allows for 5 commands:
   
 When adding an item that must be crafted, you will be asked for 2 things:
 * how many of the item its recipe produces (example: fluix crystals are 2, glass panes are 16, sandstone is 1)
- *the recipe for the item. The format for recipes is a comma-separated list of the component item name and the amount needed
+* the recipe for the item. The format for recipes is a comma-separated list of the component item name and the amount needed
 		(example: recipe for 1k storage cell is "certus quartz, 4, redstone, 4, logic processor, 1"
 
 To run this program, simply download the 2 java files and run Engine.java. 
