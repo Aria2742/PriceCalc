@@ -18,3 +18,5 @@ To run this program, simply download the 2 java files and run Engine.java.
 For those curious: Item.java is the class that does all the heavy lifting for price calculations, saving/loading the item set, and so forth. Engine.java runs the program by getting the user input and using the input to call different methods inside Item.java.
 
 NOTE: This program is very picky and typos will cause it to think it is a new item. All item names must be spelled consistently (i.e. referring to certus quartz as "certus" means you must type "certus" for the program to recognize it.)
+
+**If the program throws any errors or you find a bug, please let me know what happened and copy the program output so I can trace it back and test it myself. This code is still a work in progress and I'm sure I missed multiple errors that the program will need to handle.**
