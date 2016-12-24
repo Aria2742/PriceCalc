@@ -33,7 +33,7 @@ public class Item
 			value = Double.parseDouble(input.nextLine());
 		} else {
 			System.out.print("How many " + name + " does the recipe produce? ");
-			produced = input.nextInt();
+			produced = Itenger.parseInt(input.nextLine());
 			System.out.println("Please enter the recipe for " + name + ". ");
 			recipe = input.nextLine();
 			calcPrice(this);
