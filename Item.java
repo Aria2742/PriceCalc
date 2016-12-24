@@ -30,10 +30,10 @@ public class Item
 			recipe = null;
 			produced = 1;
 			System.out.print("What is the value of " + name + "? ");
-			value = Double.parseDouble(input.nextLine());
+			value = Double.parseDouble(input.nextLine()); // parseDouble(nextLine) prvents next read from returning an empty string
 		} else {
 			System.out.print("How many " + name + " does the recipe produce? ");
-			produced = Itenger.parseInt(input.nextLine());
+			produced = Itenger.parseInt(input.nextLine()); // parseInt(nextLine) prevents next read from returning an empty string
 			System.out.println("Please enter the recipe for " + name + ". ");
 			recipe = input.nextLine();
 			calcPrice(this);
