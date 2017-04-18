@@ -1,5 +1,7 @@
 # PriceCalc
 
+I made this program for running a store on a minecraft server. I wanted to base my prices off of server prices and other stores, but at the time the only items with prices were the basic materials. Instead of calculating out the prices by hand every time I added a new item or server prices changed, I decided to write this program.
+
 This program lets you calculate out shop prices easily for different base material cost and new items. It works by using the item recipes to figure out how many raw materials an item needs, then figure out the price from the raw material costs. The program also stores all the item data in a text document for later use. You MUST use the "exit" command to save the item info before closing the program.
 
 The program currently allows for 5 commands:
